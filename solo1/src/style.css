@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 550px;
+  margin: 0 auto;
+  font-family: 'Inter';
+  background-color: #1c1c1c;
+}
+
+#root {
+  padding-top: 53px;
+}
+
+main {
+  background-color: #23252C;
+  padding-top: 44px;
+}
+
+
+.content {
+  background-color: #1A1B21;
+  max-width: 317px;
+  margin: 0 auto;
+}
+
+.info {
+  max-width: 317px;
+  text-align: center;
+}
+
+.info--image {
+  width: 317px;
+  border-radius: 10px 10px 0px 0px;
+  vertical-align: middle;
+}
+
+.info--text {
+  background-color: #1A1B21;
+}
+
+.info--text > h1 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #FFFFFF;
+  padding: 21px 0 0 0;
+  margin: 0;
+}
+
+.info--text > h2 {
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 15px;
+  text-align: center;
+  color: #F3BF99;
+  margin: 6px 0 0 0;
+}
+
+.info--text p {
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  text-align: center;
+  color: #F5F5F5;
+  margin: 9px 0 15px 0;
+}
+
+.info--links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 250px;
+  margin: 0 auto;
+  padding-bottom: 44px;
+}
+
+.info--links > a {
+  text-decoration: none;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  width: 115px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.info--links_mail {
+  background-color: white;
+  border: 1px solid #D1D5DB;
+  color: black;
+}
+
+.info--links_linkedin {
+  background-color: #5093e2;
+  color: white;
+}
+
+.info--links_mail > img, .info--links_linkedin > img {
+  margin-right: 8px;
+}
+
+.interests {
+  padding: 20px 0 24px 0;
+}
+
+.about--content, .interests--content {
+  max-width: 250px;
+  margin: 0 auto;
+  color: white;
+}
+
+.about--content > h2, .interests--content > h2 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.about--content > p, .interests--content > p {
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  margin: 0;
+}
+
+footer {
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+  height: 64px;
+}
+
+.footer--icons {
+  padding: 19.5px 73px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
