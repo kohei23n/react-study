@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 550px;
+  border: 1px solid gray;
+  font-family: 'Inter';
+}
+
+header {
+  background-color: #f55a5a;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 45px;
+}
+
+header > img {
+  width: 24px;
+  height: 24px;
+  margin-right: 7px;
+}
+
+header > h1 {
+  color: #fff;
+  font-weight: 500;
+  font-size: 14.4608px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+}
+
+.place {
+  display: flex;
+  padding: 0 40px;
+  margin-bottom: 36px;
+}
+
+.place--container { 
+  margin-left: 19px;
+}
+
+.place--img {
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+}
+
+.place--info {
+  display: flex;
+  align-items: center;
+}
+
+.place--info > img {
+  margin-right: 4px;
+}
+
+.place--info > p {
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+  margin-right: 12px;
+}
+
+.place--info > a {
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  color: #918E9B;
+}
+
+.place--title {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  margin: 0;
+}
+
+.place--date {
+  font-weight: 700;
+  font-size: 10.24px;
+  line-height: 12px;
+}
+
+.place--description {
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+}
